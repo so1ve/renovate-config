@@ -1,0 +1,23 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base"
+  ],
+  "labels": [
+    "renovate"
+  ],
+  "prConcurrentLimit": 10,
+  "prHourlyLimit": 0,
+  "rangeStrategy": "auto",
+  "reviewersFromCodeOwners": "true",
+  "dependencyDashboard": true,
+  "description": [
+    "Use Ray's Best Practice configuration from [so1ve/renovate-config](https://github.com/so1ve/renovate-config)",
+    "Create a Dependency Dashboard as Issue, listing all upgrades",
+    "Open new PRs automatically. You can manually trigger PRs from the Dependency Dashboard, those will be opened once renovate runs again (once every hour)",
+    "Label all PRs with `renovate`",
+    "Use semantic commit messages for all upgrades",
+    "Open a maximum of 10 PRs concurrently",
+    "Automatically set reviewers from CODEOWNERS"
+  ]
+}
