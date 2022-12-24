@@ -7,6 +7,12 @@
   "labels": [
     "renovate"
   ],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true,
+    "automergeType": "pr",
+    "platformAutomerge": true
+  },
   "prConcurrentLimit": 10,
   "prHourlyLimit": 0,
   "rangeStrategy": "auto",
