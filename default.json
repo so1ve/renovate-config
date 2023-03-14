@@ -13,6 +13,7 @@
     "automergeType": "pr",
     "platformAutomerge": true
   },
+  "dependencyDashboardTitle": "🍳 Renovate Dependency Dashboard",
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch"],
