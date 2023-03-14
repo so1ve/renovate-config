@@ -13,6 +13,13 @@
     "automergeType": "pr",
     "platformAutomerge": true
   },
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "matchCurrentVersion": "!/^0/",
+      "automerge": true
+    }
+  ],
   "prConcurrentLimit": 10,
   "prHourlyLimit": 0,
   "rangeStrategy": "auto",
