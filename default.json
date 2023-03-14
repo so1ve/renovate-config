@@ -19,10 +19,6 @@
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "matchCurrentVersion": "!/^0/",
       "automerge": true
-    },
-    {
-      "matchDepTypes": ["packageManager"],
-      "automerge": true
     }
   ],
   "prConcurrentLimit": 10,
