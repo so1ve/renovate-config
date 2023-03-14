@@ -21,7 +21,7 @@
       "automerge": true
     },
     {
-      "matchDepType": "packageManager",
+      "matchDepTypes": ["packageManager"],
       "automerge": true
     }
   ],
