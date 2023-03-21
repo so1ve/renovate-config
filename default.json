@@ -4,7 +4,6 @@
     "github>whitesource/merge-confidence:beta",
     ":semanticCommits",
     "config:base",
-    "group:allNonMajor",
     "group:recommended",
     "group:monorepos"
   ],
@@ -21,6 +20,17 @@
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "matchCurrentVersion": "!/^0/",
+      "automerge": true
+    },
+    {
+      "groupName": "all non-major dependencies",
+      "groupSlug": "all-minor-patch",
+      "matchPackagePatterns": ["*"],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
       "matchCurrentVersion": "!/^0/",
       "automerge": true
     }
