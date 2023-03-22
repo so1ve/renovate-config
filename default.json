@@ -10,6 +10,7 @@
   "labels": [
     "renovate"
   ],
+  "major": { "dependencyDashboardApproval": true },
   "lockFileMaintenance": {
     "enabled": true,
     "automerge": true,
