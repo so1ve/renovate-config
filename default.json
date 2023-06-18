@@ -11,6 +11,7 @@
     "renovate"
   ],
   "major": { "dependencyDashboardApproval": true },
+  "platformAutomerge": true,
   "lockFileMaintenance": {
     "enabled": true,
     "automerge": true,
@@ -33,6 +34,11 @@
         "patch"
       ],
       "matchCurrentVersion": "!/^0/",
+      "automerge": true
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "matchPackagePatterns": ["@so1ve/eslint-config"],
       "automerge": true
     }
   ],
