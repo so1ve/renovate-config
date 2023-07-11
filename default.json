@@ -21,7 +21,11 @@
   "dependencyDashboardTitle": "🍳 Renovate Dependency Dashboard",
   "packageRules": [
     {
-      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "matchUpdateTypes": ["digest"],
+      "automerge": true
+    },
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin"],
       "matchCurrentVersion": "!/^0/",
       "automerge": true
     },
