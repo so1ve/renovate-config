@@ -3,7 +3,7 @@
   "extends": [
     "github>whitesource/merge-confidence:beta",
     ":semanticCommits",
-    "config:base",
+    "config:recommended",
     "group:recommended",
     "group:monorepos"
   ],
@@ -18,6 +18,9 @@
     "automergeType": "pr",
     "platformAutomerge": true
   },
+  "nix": {
+    "enabled": true
+  }
   "dependencyDashboardTitle": "🍳 Renovate Dependency Dashboard",
   "packageRules": [
     {
@@ -44,7 +47,7 @@
   "prConcurrentLimit": 10,
   "prHourlyLimit": 0,
   "rangeStrategy": "auto",
-  "reviewersFromCodeOwners": "true",
+  "reviewersFromCodeOwners": true,
   "dependencyDashboard": true,
   "description": [
     "Use Ray's Best Practice configuration from [so1ve/renovate-config](https://github.com/so1ve/renovate-config)",
