@@ -20,7 +20,7 @@
   },
   "nix": {
     "enabled": true
-  }
+  },
   "dependencyDashboardTitle": "🍳 Renovate Dependency Dashboard",
   "packageRules": [
     {
